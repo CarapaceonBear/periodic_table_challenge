@@ -3,7 +3,11 @@ Recreating a periodic table layout
 
 ---
 
-## Psuedocode <br>
+## Initial Thoughts <br>
+I first thought to use ordered lists for the html, such that the numbers are already included. However, this came with formatting limitations; so I had to refactor the whole html into divs. <br>
+I initially thought I would use a single grid for the whole table, but I decided to use 1 grid per row, and flex the rows. This would give me more freedom, even though I intend to have the rows spaced the same on every row. <br>
+
+## Initial Psuedocode <br>
 ### html <br>
 <pre>
 div class="table"

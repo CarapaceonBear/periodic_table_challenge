@@ -24,14 +24,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     width: 1600px;
 
 
     // change row styling to grid later, for specific widths
     &__row--1 {
         @include rowStyling();
-        
+
     }
     &__row--2 {
         @include rowStyling();

@@ -8,7 +8,9 @@
 // }
 @mixin rowStyling() {
     display: grid;
-    grid-template-columns: repeat(18, 50px);
+    // grid-template-columns: repeat(18, 50px);
+    grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px
+                            75px 65px 65px 65px 65px 75px 65px 65px 75px;
     grid-template-rows: 70px;
     gap: 10px;
 }

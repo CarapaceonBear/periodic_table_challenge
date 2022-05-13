@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&display=swap");
 body {
+  margin-top: 80px;
   background-color: black;
 }
 
@@ -69,60 +70,60 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   width: 1600px;
 }
 .table__row--1 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--2 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--3 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--4 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--5 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--6 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--7 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--8 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
 .table__row--9 {
   display: grid;
-  grid-template-columns: repeat(18, 50px);
+  grid-template-columns: 70px 75px 65px 65px 65px 75px 75px 75px 75px 75px 65px 65px 65px 65px 75px 65px 65px 75px;
   grid-template-rows: 70px;
   gap: 10px;
 }
