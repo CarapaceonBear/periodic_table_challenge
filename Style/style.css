@@ -1,13 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&display=swap");
+body {
+  background-color: black;
+}
+
 .table__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 6px;
   font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
   font-size: 24px;
-  padding: 10px;
+  border-radius: 5px;
+  height: 70px;
+}
+.table__element--d-grey {
+  background-color: rgb(81, 79, 79);
+}
+.table__element--yellow {
+  background-color: rgb(222, 203, 54);
+}
+.table__element--pink {
+  background-color: rgb(203, 154, 178);
+}
+.table__element--g-green {
+  background-color: rgb(158, 215, 158);
+}
+.table__element--green {
+  background-color: rgb(77, 177, 72);
+}
+.table__element--red {
+  background-color: rgb(156, 43, 43);
+}
+.table__element--orange {
+  background-color: rgb(208, 139, 90);
+}
+.table__element--blue {
+  background-color: rgb(90, 148, 214);
+}
+.table__element--l-green {
   background-color: rgb(190, 203, 98);
+}
+.table__element--grey {
+  background-color: rgb(167, 141, 141);
+}
+.table__element--white {
+  background-color: rgb(196, 197, 205);
+}
+.table__letter {
+  margin: 0 20px 0 20px;
+  font-weight: 700;
 }
 .table__number {
   font-size: 50%;
+  order: 2;
+  justify-self: flex-end;
+  align-self: flex-start;
+  margin-left: 5px;
+  font-weight: 400;
 }
 .table__empty {
   list-style-type: none;
@@ -18,6 +69,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 6px;
   width: 1600px;
 }
 .table__row--1 {
@@ -75,4 +127,10 @@
   align-items: center;
   width: 100%;
   width: 85%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

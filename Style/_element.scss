@@ -2,16 +2,67 @@
 
 .table {
     &__element {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         margin-top: 6px;
         font-family: $primary-font;
+        font-weight: 600;
         font-size: 24px;
-        padding: 10px;
-        background-color: $color-light-green;
 
+        border-radius: 5px;
+        height: 70px;
+
+        &--d-grey {
+            background-color: $color-dark-grey;
+        }
+        &--yellow {
+            background-color: $color-yellow;
+        }
+        &--pink {
+            background-color: $color-pink;
+        }
+        &--g-green {
+            background-color: $color-grey-green;
+        }
+        &--green {
+            background-color: $color-green;
+        }
+        &--red {
+            background-color: $color-red;
+        }
+        &--orange {
+            background-color: $color-orange;
+        }
+        &--blue {
+            background-color: $color-blue;
+        }
+        &--l-green {
+            background-color: $color-light-green;
+        }
+        &--grey {
+            background-color: $color-grey;
+        }
+        &--white {
+            background-color: $color-white;
+        }
     }
+    &__letter {
+        margin:0 20px 0 20px;
+        font-weight: $letter-weight;
+    }
+
     &__number {
         font-size: 50%;
+        order: 2;
+        justify-self: flex-end;
+        align-self: flex-start;
+        margin-left: 5px;
+        font-weight: $number-weight;
     }
+
 
 
     &__empty {
