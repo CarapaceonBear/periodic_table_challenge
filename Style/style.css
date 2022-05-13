@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Kodchasan&display=swap");
+.table__element {
+  margin-top: 6px;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgb(190, 203, 98);
+}
+.table__number {
+  font-size: 50%;
+}
+.table__empty {
+  list-style-type: none;
+}
+
 .table {
   display: flex;
   flex-direction: column;
