@@ -31,6 +31,7 @@
     // change row styling to grid later, for specific widths
     &__row--1 {
         @include rowStyling();
+        
     }
     &__row--2 {
         @include rowStyling();
@@ -52,10 +53,8 @@
     }
     &__row--8 {
         @include rowStyling();
-        width: 85%
     }
     &__row--9 {
         @include rowStyling();
-        width: 85%
     }
 }
