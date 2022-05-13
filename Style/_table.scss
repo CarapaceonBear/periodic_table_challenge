@@ -26,6 +26,8 @@
     align-items: center;
     width: 1600px;
 
+
+    // change row styling to grid later, for specific widths
     &__row--1 {
         @include rowStyling();
     }
